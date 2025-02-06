@@ -264,10 +264,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OtWX9JLoL02Oy_2mPaNE-20" value="pesapap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="420" width="60" height="30" as="geometry" />
+          <mxGeometry x="430" y="430" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OtWX9JLoL02Oy_2mPaNE-21" value="agency banking" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="420" width="60" height="30" as="geometry" />
+          <mxGeometry x="680" y="430" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OtWX9JLoL02Oy_2mPaNE-22" value="internet&lt;div&gt;banking&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="430" width="60" height="30" as="geometry" />
