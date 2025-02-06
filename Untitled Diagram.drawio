@@ -217,10 +217,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dVnjWrvMVnyBbWTt5cps" name="Page-4">
-    <mxGraphModel dx="1674" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1154" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OtWX9JLoL02Oy_2mPaNE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtWX9JLoL02Oy_2mPaNE-1" target="OtWX9JLoL02Oy_2mPaNE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtWX9JLoL02Oy_2mPaNE-1" value="Payment initiation&lt;div&gt;Mr.Jerry&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtWX9JLoL02Oy_2mPaNE-3" value="Queue" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OtWX9JLoL02Oy_2mPaNE-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="145" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OtWX9JLoL02Oy_2mPaNE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OtWX9JLoL02Oy_2mPaNE-3" target="OtWX9JLoL02Oy_2mPaNE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtWX9JLoL02Oy_2mPaNE-11" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;- Store payload into properties&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;- Form outgoing request payload&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;- Use channel name to get channel endpoint&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="152.5" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OtWX9JLoL02Oy_2mPaNE-12" value="Consume From queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="115" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
