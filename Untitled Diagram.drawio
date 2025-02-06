@@ -231,7 +231,7 @@
           <mxGeometry x="250" y="140" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OtWX9JLoL02Oy_2mPaNE-12" value="Consume From queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="115" width="140" height="30" as="geometry" />
+          <mxGeometry x="460" y="116" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OtWX9JLoL02Oy_2mPaNE-13" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="460" y="145" width="250" height="85" as="geometry" />
