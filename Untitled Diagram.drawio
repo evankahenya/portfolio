@@ -180,7 +180,7 @@
         <mxCell id="8uTPxFHNM7zZEhXoFxdO-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
           <mxGeometry x="-26" y="-118" width="68.88" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="8uTPxFHNM7zZEhXoFxdO-7" value="&lt;div&gt;SELECT FROM OUTCREDIT&lt;/div&gt;&lt;div&gt;CALLBACK SENT = NULL/ 0 AND CALLBACK RESPONSE = NULL&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8uTPxFHNM7zZEhXoFxdO-7" value="&lt;div&gt;SELECT * FROM OUTCREDIT&lt;/div&gt;&lt;div&gt;WHERE&lt;/div&gt;&lt;div&gt;CALLBACK SENT = NULL/ 0 AND CALLBACK RESPONSE = NULL&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-67" y="24" width="201" height="96" as="geometry" />
         </mxCell>
         <mxCell id="8uTPxFHNM7zZEhXoFxdO-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.368;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="8uTPxFHNM7zZEhXoFxdO-5" target="8uTPxFHNM7zZEhXoFxdO-7">
@@ -197,6 +197,9 @@
         </mxCell>
         <mxCell id="8uTPxFHNM7zZEhXoFxdO-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.336;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="8uTPxFHNM7zZEhXoFxdO-9" target="8uTPxFHNM7zZEhXoFxdO-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uTPxFHNM7zZEhXoFxdO-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547" y="-118" width="120" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
