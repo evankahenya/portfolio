@@ -189,6 +189,9 @@
         <mxCell id="8uTPxFHNM7zZEhXoFxdO-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="8uTPxFHNM7zZEhXoFxdO-5" target="8uTPxFHNM7zZEhXoFxdO-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8uTPxFHNM7zZEhXoFxdO-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;{&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp; &quot;StatusDescription&quot;: &quot;Successful&quot;,&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;StatusCode&quot;: &quot;ACCP&quot;,&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;TransactionReference&quot;: &quot;230821077543&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;transactionDetails&quot;: {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;EndToEndId&quot;: &quot;007000682023082116465047704154&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;BeneficiaryBank&quot;: &quot;0068&quot;,&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;Amount&quot;: 7000,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;DebtorTelephone&quot;: &quot;+254-111222333&quot;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; }&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="5" width="276" height="325" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
