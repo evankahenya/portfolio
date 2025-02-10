@@ -177,7 +177,7 @@
         <mxCell id="8uTPxFHNM7zZEhXoFxdO-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
           <mxGeometry x="65" y="-118" width="68.88" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="8uTPxFHNM7zZEhXoFxdO-7" value="&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;CALLBACK SENT = NULL/ 0 AND CALLBACK RESPONSE = NULL&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8uTPxFHNM7zZEhXoFxdO-7" value="&lt;div&gt;SELECT FROM OUTCREDIT&lt;/div&gt;&lt;div&gt;CALLBACK SENT = NULL/ 0 AND CALLBACK RESPONSE = NULL&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="27" y="34" width="201" height="96" as="geometry" />
         </mxCell>
         <mxCell id="8uTPxFHNM7zZEhXoFxdO-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.368;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="8uTPxFHNM7zZEhXoFxdO-5" target="8uTPxFHNM7zZEhXoFxdO-7">
