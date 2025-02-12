@@ -129,11 +129,6 @@
         <mxCell id="OtWX9JLoL02Oy_2mPaNE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OtWX9JLoL02Oy_2mPaNE-27" target="OtWX9JLoL02Oy_2mPaNE-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OtWX9JLoL02Oy_2mPaNE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OtWX9JLoL02Oy_2mPaNE-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="175" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OtWX9JLoL02Oy_2mPaNE-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OtWX9JLoL02Oy_2mPaNE-37" target="OtWX9JLoL02Oy_2mPaNE-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -157,6 +152,9 @@
         </mxCell>
         <mxCell id="vDvmJloIMKwA47X4VoMb-1" value="MY API&amp;nbsp;&lt;div&gt;ENDPOINT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDvmJloIMKwA47X4VoMb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vDvmJloIMKwA47X4VoMb-1" target="OtWX9JLoL02Oy_2mPaNE-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
