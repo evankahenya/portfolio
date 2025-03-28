@@ -51,37 +51,37 @@
           <mxGeometry x="113" y="129.5" width="72" height="39" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-18" value="Initiate Action Call" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-418" y="301" width="131" height="23" as="geometry" />
+          <mxGeometry x="-418" y="507" width="131" height="23" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HO01-DVfuYnRHFysTmae-19" target="HO01-DVfuYnRHFysTmae-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-19" value="Initiate Action Call" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410.5" y="348" width="115.5" height="48" as="geometry" />
+          <mxGeometry x="-410.5" y="554" width="115.5" height="48" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HO01-DVfuYnRHFysTmae-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="86" y="372" as="targetPoint" />
+            <mxPoint x="86" y="578" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-20" value="Generate OTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-171" y="348" width="120" height="48" as="geometry" />
+          <mxGeometry x="-171" y="554" width="120" height="48" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-22" value="Get Client credentials&lt;div&gt;from payload&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-171" y="441" width="120" height="50" as="geometry" />
+          <mxGeometry x="-171" y="647" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HO01-DVfuYnRHFysTmae-19" target="HO01-DVfuYnRHFysTmae-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-379" y="460" as="sourcePoint" />
-            <mxPoint x="-262" y="426" as="targetPoint" />
+            <mxPoint x="-379" y="666" as="sourcePoint" />
+            <mxPoint x="-262" y="632" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-351" y="493" />
+              <mxPoint x="-351" y="699" />
             </Array>
           </mxGeometry>
         </mxCell>
         <object label="" id="HO01-DVfuYnRHFysTmae-30">
           <mxCell style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.source_code;" vertex="1" parent="1">
-            <mxGeometry x="-283" y="483" width="24.11" height="33" as="geometry" />
+            <mxGeometry x="-283" y="689" width="24.11" height="33" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="HO01-DVfuYnRHFysTmae-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HO01-DVfuYnRHFysTmae-31" target="HO01-DVfuYnRHFysTmae-38">
@@ -91,28 +91,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-31" value="Push OTP" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="89" y="332" width="80" height="80" as="geometry" />
+          <mxGeometry x="89" y="538" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-35" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.981;exitY=0.597;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HO01-DVfuYnRHFysTmae-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="34" y="477" as="sourcePoint" />
-            <mxPoint x="129" y="469" as="targetPoint" />
+            <mxPoint x="34" y="683" as="sourcePoint" />
+            <mxPoint x="129" y="675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="HO01-DVfuYnRHFysTmae-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="128" y="470" as="sourcePoint" />
-            <mxPoint x="178" y="420" as="targetPoint" />
+            <mxPoint x="128" y="676" as="sourcePoint" />
+            <mxPoint x="178" y="626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-38" value="SMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="252" y="355" width="78" height="34" as="geometry" />
+          <mxGeometry x="252" y="561" width="78" height="34" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-39" value="EMAIL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="249" y="314" width="78" height="34" as="geometry" />
+          <mxGeometry x="249" y="520" width="78" height="34" as="geometry" />
         </mxCell>
         <mxCell id="HO01-DVfuYnRHFysTmae-43" value="Initiate request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-307" y="520" width="60" height="30" as="geometry" />
+          <mxGeometry x="-307" y="726" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
