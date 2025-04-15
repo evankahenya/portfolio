@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="x8c-PjQw1XkC-ny0uqDQ">
-    <mxGraphModel>
+    <mxGraphModel dx="2494" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fhN8rQT-Gy1D83r5vh_d-1" target="fhN8rQT-Gy1D83r5vh_d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-1" value="RECIEVE&amp;nbsp;&lt;div&gt;SMPP&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Phone Number Validation&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Payload Validation&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Duplicate Check&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="-920" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fhN8rQT-Gy1D83r5vh_d-2" target="fhN8rQT-Gy1D83r5vh_d-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-2" value="&lt;pre&gt;&lt;code class=&quot;xml hljs&quot;&gt;ASYNC_SMPP&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code class=&quot;xml hljs&quot;&gt;sends request to queue&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-920" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-4" value="&lt;pre&gt;&lt;code class=&quot;xml hljs&quot;&gt;EP_ASYNC_SMPP&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-473" y="-900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fhN8rQT-Gy1D83r5vh_d-5" target="fhN8rQT-Gy1D83r5vh_d-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-5" value="ACTIVE MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-920" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-7" value="&lt;pre&gt;&lt;code class=&quot;xml hljs&quot;&gt;EP_ACTIVEMQ_SMPP_QUEUE&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-8" value="&lt;pre&gt;&lt;code class=&quot;xml hljs&quot;&gt;SEQUENCE&lt;br&gt;SEND-SMPP-MSG&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;Calculate Current Date&lt;/pre&gt;&lt;pre&gt;Post payload to DB&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-644" width="230" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-11" value="&lt;pre&gt;&lt;code class=&quot;xml hljs&quot;&gt;Inbound_smpp_sms_queue&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-12" value="&lt;pre&gt;&lt;code class=&quot;xml hljs&quot;&gt;EP_SMS_OUTBOX_CREATE_DBS&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-14" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="-275.14" y="-610" width="135.14" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fhN8rQT-Gy1D83r5vh_d-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fhN8rQT-Gy1D83r5vh_d-8" target="fhN8rQT-Gy1D83r5vh_d-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
